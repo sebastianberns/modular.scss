@@ -17,8 +17,11 @@ $image-xs: $image-sm / 2;
 
 
 
+// External helpers and resets
 @import "bourbon/bourbon";
-@import "normalize/normalize";
+@import "normalize";
+
+// Modules
 @import "base";
 @import "color";
 @import "typography";
