@@ -58,6 +58,19 @@
 
 .invisible { visibility: hidden; opacity: 0 }
 
+.wauto { width: auto }
+.w100p { width: 100% }
+.w50p  { width:  50% }
+
+.hauto { height: auto }
+.h100p { height: 100% }
+.h50p  { height:  50% }
+
+.fit      { max-width:  100% }
+.vfit     { max-height: 100% }
+.hstretch { min-width:  100% }
+.vstretch { min-height: 100% }
+
 .oh    { overflow:   hidden }
 .oxh   { overflow-x: hidden }
 .oyh   { overflow-y: hidden }
@@ -69,19 +82,6 @@
 .right { float: right }
 
 .clearfix { @include clearfix }
-
-.fit      { max-width:  100% }
-.vfit     { max-height: 100% }
-.hstretch { min-width:  100% }
-.vstretch { min-height: 100% }
-
-.wauto { width: auto }
-.w100p { width: 100% }
-.w50p  { width:  50% }
-
-.hauto { height: auto }
-.h100p { height: 100% }
-.h50p  { height:  50% }
 
 $mp-min: 0;
 $mp-max: 10;
