@@ -1,0 +1,4 @@
+[submodule "bourbon"]
+	path = bourbon
+	url = https://github.com/Sujevo/lib-bourbon
+	branch = v4_2
