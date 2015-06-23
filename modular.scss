@@ -9,11 +9,15 @@ $screen-sm-max: $screen-md-min - 1;
 $screen-sm-min: 768px;
 $screen-xs-max: $screen-sm-min - 1;
 
-// Responsive image sizes
+// Adaptive image sizes
 $image-lg: 1440px;
 $image-md: $image-lg / 2;
 $image-sm: $image-md / 2;
 $image-xs: $image-sm / 2;
+
+$image-sm-min: $image-xs + 1;
+$image-md-min: $image-sm + 1;
+$image-lg-min: $image-md + 1;
 
 
 
